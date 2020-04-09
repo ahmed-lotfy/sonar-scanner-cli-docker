@@ -33,6 +33,6 @@ COPY --chown=scanner-cli:scanner-cli bin /usr/bin/
 
 WORKDIR /usr/src
 
-USER scanner-cli
+USER root
 
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
